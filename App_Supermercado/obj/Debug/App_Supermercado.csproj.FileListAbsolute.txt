@@ -1,0 +1,28 @@
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\App_Supermercado\bin\Debug\App_Supermercado.exe.config
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\App_Supermercado\bin\Debug\App_Supermercado.exe
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\App_Supermercado\bin\Debug\App_Supermercado.pdb
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csprojAssemblyReference.cache
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.Properties.Resources.resources
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csproj.GenerateResource.cache
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.exe
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.pdb
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\App_Supermercado\bin\Debug\LibFormularios.dll
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\App_Supermercado\bin\Debug\LibFormularios.pdb
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csproj.CopyComplete
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\App_Supermercado\bin\Debug\LibClases.dll
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\App_Supermercado\bin\Debug\LibClases.pdb
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\bin\Debug\App_Supermercado.exe.config
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\bin\Debug\App_Supermercado.exe
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\bin\Debug\App_Supermercado.pdb
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\bin\Debug\LibFormularios.dll
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\bin\Debug\LibClases.dll
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\bin\Debug\LibFormularios.pdb
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\bin\Debug\LibClases.pdb
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csprojAssemblyReference.cache
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.Properties.Resources.resources
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csproj.GenerateResource.cache
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csproj.CoreCompileInputs.cache
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csproj.CopyComplete
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.exe
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.pdb

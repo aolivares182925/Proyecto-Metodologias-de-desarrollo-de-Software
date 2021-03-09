@@ -1,0 +1,41 @@
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\bin\Debug\LibFormularios.dll
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\bin\Debug\LibFormularios.pdb
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmLogin.resources
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.dll
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.pdb
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\bin\Debug\LibClases.dll
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\bin\Debug\LibClases.pdb
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmInterCajero.resources
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmInterAdmin.resources
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmPadre.resources
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmAdmUsuarios.resources
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmAlmacen.resources
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmAntVentas.resources
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmArqueo.resources
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmReporVentas.resources
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\bin\Debug\LibFormularios.dll
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\bin\Debug\LibFormularios.pdb
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\bin\Debug\LibClases.dll
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\bin\Debug\LibClases.pdb
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmAdmUsuarios.resources
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmAlmacen.resources
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmAntVentas.resources
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmArqueo.resources
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmInterAdmin.resources
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmInterCajero.resources
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmLogin.resources
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmPadre.resources
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmReporVentas.resources
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.dll
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.pdb
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmPanelArqueo.resources

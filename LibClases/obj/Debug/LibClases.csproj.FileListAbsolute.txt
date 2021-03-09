@@ -1,0 +1,12 @@
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibClases\bin\Debug\LibClases.dll
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibClases\bin\Debug\LibClases.pdb
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibClases\obj\Debug\LibClases.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibClases\obj\Debug\LibClases.dll
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibClases\obj\Debug\LibClases.pdb
+C:\Users\Acer\Documents\Cursos Hechos\26. Metodologia del Software\App_Supermercado\LibClases\obj\Debug\LibClases.csprojAssemblyReference.cache
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibClases\bin\Debug\LibClases.dll
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibClases\bin\Debug\LibClases.pdb
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibClases\obj\Debug\LibClases.csprojAssemblyReference.cache
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibClases\obj\Debug\LibClases.csproj.CoreCompileInputs.cache
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibClases\obj\Debug\LibClases.dll
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\LibClases\obj\Debug\LibClases.pdb
