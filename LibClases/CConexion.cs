@@ -21,7 +21,7 @@ namespace LibClases
 			aDatos = new DataSet();
 			aAdaptador = new SqlDataAdapter();
 			// realizar la conexion
-			string CadenaConexion = "Data Source=LAPTOP-GCAFGI1G; " +
+			string CadenaConexion = "Data Source=DESKTOP-H4RJ2LR; " +
 				"Initial Catalog = DBSupermercado; Integrated Security = SSPI; ";
 
 			aConexion = new SqlConnection(CadenaConexion);
