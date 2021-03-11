@@ -45,13 +45,45 @@ namespace LibFormularios
         private void frmPanelArqueo_Load(object sender, EventArgs e)
         {
             ListarRegistros();
-
-            this.Leer_datos("SELECT * FROM ArqueoVenta", ref resultados, "ArqueoVenta");
+            //llenar la tabla de Ventas efectudas
+            string fecha = "'"+lblFecha.Text + "'";
+            string prueba = "SELECT * FROM ArqueoVenta WHERE Fecha = '01-01-2021' ";
+            //"SELECT * FROM ArqueoVenta WHERE Fecha =" + fecha
+            this.Leer_datos("SELECT * FROM ArqueoVenta WHERE Fecha =" + fecha, ref resultados, "ArqueoVenta");
 
             this.miFiltro = ((DataTable)resultados.Tables["ArqueoVenta"]).DefaultView;
 
             this.dgvVentasEfectuadas.DataSource = miFiltro;
+            //Hallar el total de las ventas efectuadas
+            double TotalVentasEfectuadas = 0;
+            foreach (DataGridViewRow row in dgvVentasEfectuadas.Rows)
+            {
+                TotalVentasEfectuadas += Convert.ToDouble(row.Cells["Monto"].Value);
+            }
+            this.lblTotalVentasEfectuadas.Text = Convert.ToString(TotalVentasEfectuadas);
+
+            //Realizar el resumen del arqueo
+            double TotalRecaudado = Convert.ToDouble(lblTotalConteoDinero.Text);
+
+            double TotalSobrante = TotalRecaudado - TotalVentasEfectuadas;
+
+            if (TotalSobrante > 0)
+            {
+                txtResumen.Text = "Se encontro un sobrante de " + Convert.ToString(Math.Abs(TotalSobrante));
+            }
+            else if (TotalSobrante < 0)
+            {
+                txtResumen.Text = "Se encontro un faltante de " + Convert.ToString(Math.Abs(TotalSobrante));
+            }
+            else
+            {
+                txtResumen.Text = "ARQUEO EFECTUADO - CONFORME";
+            }
+
+
         }
+
+        
     }
 
     

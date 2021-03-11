@@ -123,15 +123,44 @@ namespace LibFormularios
             {
 				MessageBox.Show(error.ToString(), "Datos erroneos");
 			}
-
-
 		}
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
 			frmPanelArqueo PanelArqueoNuevo = new frmPanelArqueo();
+			string titulosConteoDinero = "Nro     Denominacion     Cantidad     Parcial ";
+			string Conteo_Dinero=(titulosConteoDinero + "\n"+
+								 "1" + "          200                      " + txtB200.Text + "               " + (long.Parse(txtB200.Text) * 200).ToString() + "\n"+
+								 "2" + "          100                      " + txtB100.Text + "               " + (long.Parse(txtB100.Text) * 100).ToString() + "\n" +
+								 "3" + "          50                        " + txtB50.Text + "                " + (long.Parse(txtB50.Text) * 50).ToString() + "\n" +
+								 "4" + "          20                        " + txtB20.Text + "                " + (long.Parse(txtB20.Text) * 20).ToString() + "\n" +
+								 "5" + "          10                        " + txtB10.Text + "                " + (long.Parse(txtB10.Text) * 10).ToString() + "\n" +
+								 "6" + "          5                          " + txtM5.Text + "                 " + (long.Parse(txtM5.Text) * 5).ToString() + "\n" +
+								 "7" + "          2                          " + txtM2.Text + "                 " + (long.Parse(txtM2.Text) * 2).ToString() + "\n" +
+								 "8" + "          1                          " + txtM1.Text + "                 " + (long.Parse(txtM1.Text) * 1).ToString() + "\n" +
+								 "9" + "          0.5                      " + txtM0_5.Text + "               " + (long.Parse(txtM0_5.Text) * 0.5).ToString() + "\n" +
+								 "10" + "         0.2                      " + txtM0_2.Text + "               " + (long.Parse(txtM0_2.Text) * 0.2).ToString() + "\n" +
+								 "11" + "         0.1                      " + txtM0_1.Text + "               " + (long.Parse(txtM0_1.Text) * 0_1).ToString() + "\n" +
+								 "\n"+
+								 "Total Recaudado \t" + lblTotalRecaudado.Text);
+
+			PanelArqueoNuevo.lblConteoDinero.Text = Conteo_Dinero;
+			PanelArqueoNuevo.lblTotalConteoDinero.Text = lblTotalRecaudado.Text;
+			PanelArqueoNuevo.txtObservaciones.Text = txtObservaciones.Text;
+
+			string cero = "0";
+			//Auxiliar
+			
+			PanelArqueoNuevo.lblFecha.Text = ((int.Parse(dtpFecha.Value.Day.ToString()) <10)? "0":"") + dtpFecha.Value.Day.ToString() + 
+				"-"+ ((int.Parse(dtpFecha.Value.Month.ToString()) < 10) ? "0" : "") + dtpFecha.Value.Month.ToString() 
+				+"-"+ dtpFecha.Value.Year.ToString() ;
+
+
+			//PanelArqueoNuevo.lblFecha.Text = "hola"; 
+
 			PanelArqueoNuevo.Show();
 
+			
 
 			//PanelArqueoNuevo.TopLevel = false;
 			//PanelArqueoNuevo.Dock = DockStyle.Fill;
@@ -139,6 +168,11 @@ namespace LibFormularios
 			//this.pnlContenedor.Tag = PanelArqueoNuevo;
 			//PanelArqueoNuevo.Show();
 		}
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 	
 }

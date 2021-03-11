@@ -26,3 +26,17 @@ F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermer
 F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csproj.CopyComplete
 F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.exe
 F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.pdb
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\bin\Debug\App_Supermercado.exe.config
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\bin\Debug\App_Supermercado.exe
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\bin\Debug\App_Supermercado.pdb
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\bin\Debug\LibFormularios.dll
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\bin\Debug\LibClases.dll
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\bin\Debug\LibFormularios.pdb
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\bin\Debug\LibClases.pdb
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csprojAssemblyReference.cache
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.Properties.Resources.resources
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csproj.GenerateResource.cache
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csproj.CoreCompileInputs.cache
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csproj.CopyComplete
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.exe
+F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.pdb
