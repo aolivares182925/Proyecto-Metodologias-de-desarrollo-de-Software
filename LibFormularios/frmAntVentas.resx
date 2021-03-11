@@ -129,6 +129,21 @@
         PY0dOXA9NgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="btnVerVentas.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAYhJREFUWEft
+        lT9KA1EQxjeFegSxVtFDiIjY7AGWZf+1axQsxRMY9BZqo9h6AAtbwSsIakJsLDTt6jcv30oIqPMGWVLs
+        Dz7CmzfzzeTlZTdoaWmZObIsu4U+qbc8zw+51QxoeDcxgKiK43iZ282CYa45RJehZkHjfRkAg1xy/cSB
+        rLpwxlqSJFln4RDLDj7PuLYqHTvrkaZDKcYprDHmRRiGC6j/gCp8oUWG9cjxywBpmu4x5AXqdqQeumfI
+        DxR2aXDFkBeoO2V9jyE/Ju7BAMvOOKoHdQ9Sj5PcYsgfGLyIiQzDkAo0XUJdBb1HUTTPsD/1PYC8ngfI
+        z1l3w5ANDLArRjIIQypwAc85wAFDNtB4BSZylGLmqwqDrNLKDkyOYDaaMv9LIwz/Py8zuUQwO4HpowgD
+        HZdlOcdthybHDAzr//O3pAG3HZocMzDr03CzKIptNnjmtkOTYwZGAzHEs2BDGtC8z22HJscMf1t3rLWm
+        j1eTY6a+YNArjOUN2fvpEv6W09IyYwTBF7JMcYb9aGzYAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

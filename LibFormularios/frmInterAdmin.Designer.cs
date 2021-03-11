@@ -37,15 +37,8 @@
 			this.pnlMenuVertical = new System.Windows.Forms.Panel();
 			this.panel11 = new System.Windows.Forms.Panel();
 			this.btnVolver = new System.Windows.Forms.Button();
-			this.pnlSubMenu = new System.Windows.Forms.Panel();
-			this.btnRpPagos = new System.Windows.Forms.Button();
-			this.panel9 = new System.Windows.Forms.Panel();
-			this.btnRpVentas = new System.Windows.Forms.Button();
-			this.panel7 = new System.Windows.Forms.Panel();
 			this.btnArqueo = new System.Windows.Forms.Button();
 			this.panel3 = new System.Windows.Forms.Panel();
-			this.btnReportes = new System.Windows.Forms.Button();
-			this.panel6 = new System.Windows.Forms.Panel();
 			this.panel4 = new System.Windows.Forms.Panel();
 			this.btnProductos = new System.Windows.Forms.Button();
 			this.panel1 = new System.Windows.Forms.Panel();
@@ -58,7 +51,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
 			this.pnlMenuVertical.SuspendLayout();
-			this.pnlSubMenu.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.ptrLogo)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -135,11 +127,8 @@
 			this.pnlMenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(34)))), ((int)(((byte)(40)))));
 			this.pnlMenuVertical.Controls.Add(this.panel11);
 			this.pnlMenuVertical.Controls.Add(this.btnVolver);
-			this.pnlMenuVertical.Controls.Add(this.pnlSubMenu);
 			this.pnlMenuVertical.Controls.Add(this.btnArqueo);
 			this.pnlMenuVertical.Controls.Add(this.panel3);
-			this.pnlMenuVertical.Controls.Add(this.btnReportes);
-			this.pnlMenuVertical.Controls.Add(this.panel6);
 			this.pnlMenuVertical.Controls.Add(this.panel4);
 			this.pnlMenuVertical.Controls.Add(this.btnProductos);
 			this.pnlMenuVertical.Controls.Add(this.panel1);
@@ -178,66 +167,6 @@
 			this.btnVolver.UseVisualStyleBackColor = true;
 			this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
 			// 
-			// pnlSubMenu
-			// 
-			this.pnlSubMenu.Controls.Add(this.btnRpPagos);
-			this.pnlSubMenu.Controls.Add(this.panel9);
-			this.pnlSubMenu.Controls.Add(this.btnRpVentas);
-			this.pnlSubMenu.Controls.Add(this.panel7);
-			this.pnlSubMenu.Location = new System.Drawing.Point(43, 286);
-			this.pnlSubMenu.Name = "pnlSubMenu";
-			this.pnlSubMenu.Size = new System.Drawing.Size(174, 82);
-			this.pnlSubMenu.TabIndex = 32;
-			this.pnlSubMenu.Visible = false;
-			// 
-			// btnRpPagos
-			// 
-			this.btnRpPagos.FlatAppearance.BorderSize = 0;
-			this.btnRpPagos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-			this.btnRpPagos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.btnRpPagos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnRpPagos.ForeColor = System.Drawing.Color.White;
-			this.btnRpPagos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.btnRpPagos.Location = new System.Drawing.Point(11, 44);
-			this.btnRpPagos.Name = "btnRpPagos";
-			this.btnRpPagos.Size = new System.Drawing.Size(163, 35);
-			this.btnRpPagos.TabIndex = 23;
-			this.btnRpPagos.Text = "Reporte Pagos";
-			this.btnRpPagos.UseVisualStyleBackColor = true;
-			this.btnRpPagos.Click += new System.EventHandler(this.btnRpPagos_Click);
-			// 
-			// panel9
-			// 
-			this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-			this.panel9.Location = new System.Drawing.Point(-5, 44);
-			this.panel9.Name = "panel9";
-			this.panel9.Size = new System.Drawing.Size(10, 32);
-			this.panel9.TabIndex = 22;
-			// 
-			// btnRpVentas
-			// 
-			this.btnRpVentas.FlatAppearance.BorderSize = 0;
-			this.btnRpVentas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-			this.btnRpVentas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.btnRpVentas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnRpVentas.ForeColor = System.Drawing.Color.White;
-			this.btnRpVentas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.btnRpVentas.Location = new System.Drawing.Point(11, 3);
-			this.btnRpVentas.Name = "btnRpVentas";
-			this.btnRpVentas.Size = new System.Drawing.Size(163, 35);
-			this.btnRpVentas.TabIndex = 19;
-			this.btnRpVentas.Text = "Reporte Ventas";
-			this.btnRpVentas.UseVisualStyleBackColor = true;
-			this.btnRpVentas.Click += new System.EventHandler(this.btnRpVentas_Click);
-			// 
-			// panel7
-			// 
-			this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-			this.panel7.Location = new System.Drawing.Point(-5, 3);
-			this.panel7.Name = "panel7";
-			this.panel7.Size = new System.Drawing.Size(10, 32);
-			this.panel7.TabIndex = 18;
-			// 
 			// btnArqueo
 			// 
 			this.btnArqueo.FlatAppearance.BorderSize = 0;
@@ -262,31 +191,6 @@
 			this.panel3.Name = "panel3";
 			this.panel3.Size = new System.Drawing.Size(5, 32);
 			this.panel3.TabIndex = 28;
-			// 
-			// btnReportes
-			// 
-			this.btnReportes.FlatAppearance.BorderSize = 0;
-			this.btnReportes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-			this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.btnReportes.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnReportes.ForeColor = System.Drawing.Color.White;
-			this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
-			this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.btnReportes.Location = new System.Drawing.Point(9, 245);
-			this.btnReportes.Name = "btnReportes";
-			this.btnReportes.Size = new System.Drawing.Size(211, 35);
-			this.btnReportes.TabIndex = 27;
-			this.btnReportes.Text = "Reportes";
-			this.btnReportes.UseVisualStyleBackColor = true;
-			this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
-			// 
-			// panel6
-			// 
-			this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-			this.panel6.Location = new System.Drawing.Point(3, 245);
-			this.panel6.Name = "panel6";
-			this.panel6.Size = new System.Drawing.Size(5, 32);
-			this.panel6.TabIndex = 26;
 			// 
 			// panel4
 			// 
@@ -377,7 +281,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
 			this.pnlMenuVertical.ResumeLayout(false);
-			this.pnlSubMenu.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.ptrLogo)).EndInit();
 			this.ResumeLayout(false);
 
@@ -394,17 +297,10 @@
 		private System.Windows.Forms.PictureBox ptrLogo;
 		protected System.Windows.Forms.Button btnArqueo;
 		private System.Windows.Forms.Panel panel3;
-		protected System.Windows.Forms.Button btnReportes;
-		private System.Windows.Forms.Panel panel6;
 		private System.Windows.Forms.Panel panel4;
 		protected System.Windows.Forms.Button btnProductos;
 		private System.Windows.Forms.Panel panel1;
 		protected System.Windows.Forms.Button btnEmpleados;
-		private System.Windows.Forms.Panel pnlSubMenu;
-		protected System.Windows.Forms.Button btnRpPagos;
-		private System.Windows.Forms.Panel panel9;
-		protected System.Windows.Forms.Button btnRpVentas;
-		private System.Windows.Forms.Panel panel7;
 		private System.Windows.Forms.Panel pnlContenedor;
 		private System.Windows.Forms.Panel panel11;
 		private System.Windows.Forms.Button btnVolver;

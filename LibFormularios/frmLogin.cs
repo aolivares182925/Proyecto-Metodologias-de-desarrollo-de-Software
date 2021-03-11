@@ -22,7 +22,7 @@ namespace LibFormularios
 			InitializeComponent();
 		}
 		// Establecer conexion con SQL-server
-		SqlConnection Conex = new SqlConnection("Server=DESKTOP-H4RJ2LR;DataBase=DBSupermercado; integrated security= True");
+		SqlConnection Conex = new SqlConnection("Server=LAPTOP-GCAFGI1G;DataBase=DBSupermercado; integrated security= True");
 		// ===========================================================
 		// ====================ATRIBUTOS==============================
 		[DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]

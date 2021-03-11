@@ -15,6 +15,14 @@ namespace LibFormularios
 	public partial class frmReporVentas : Form
 	{
 		private CVentas aVentas;
+		private string NroVentas;
+
+
+		//--Metodos set y get
+		public string CodComponente
+		{
+			get { return NroVentas; }
+		}
 
 		public frmReporVentas()
 		{
@@ -35,7 +43,7 @@ namespace LibFormularios
 		{
 			try
 			{
-				string Consulta = "Data Source=DESKTOP-H4RJ2LR; DataBase = DBSupermercado; integrated security = True";
+				string Consulta = "Data Source=LAPTOP-GCAFGI1G; DataBase = DBSupermercado; integrated security = True";
 				SqlConnection cn = new SqlConnection(Consulta);
 				SqlCommand cmd = new SqlCommand(query, cn);
 				cn.Open();
@@ -65,9 +73,9 @@ namespace LibFormularios
 		private void frmReporVentas_Load(object sender, EventArgs e)
 		{
 			//ListarRegistros();
-			this.Leer_datos("SELECT * FROM ReportVenta", ref resultados, "ReportVenta");
+			this.Leer_datos("SELECT * FROM Venta", ref resultados, "Venta");
 
-			this.miFiltro = ((DataTable)resultados.Tables["ReportVenta"]).DefaultView;
+			this.miFiltro = ((DataTable)resultados.Tables["Venta"]).DefaultView;
 
 			this.dgvVentas.DataSource = miFiltro;
 		}
@@ -78,5 +86,11 @@ namespace LibFormularios
 			frmInterCajero C = new frmInterCajero();
 			C.ShowDialog();
 		}
+
+		private void btnCerrar_Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
+
 	}
 }

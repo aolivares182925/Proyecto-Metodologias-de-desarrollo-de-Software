@@ -19,16 +19,18 @@ namespace LibFormularios
 		private int aCantidad;
 		private double aPago;
 		private string aNroProducto;
+		private string aNroVenta;
 
 		public frmAntVentas()
 		{
 			InitializeComponent();
 			IniciarEntidad(new CVentas());
 			aVentas = new CVentas();
-			IniciarEntidad(new CProductos());
+			//IniciarEntidad(new CProductos());
 			aProductos = new CProductos();
 			aCantidad = 0;
 			aPago = 0;
+			aNroVenta = "";
 		}
 		//============= REDEFINICION DE LOS METODOS VIRTUALES ====================
 		//-- Establecer los valores que iran a la tabla
@@ -38,6 +40,7 @@ namespace LibFormularios
 			if (dgvProductos.Rows.Count > 0)
 			{
 				Codigo = dgvProductos[0, dgvProductos.CurrentCell.RowIndex].Value.ToString();
+				aNroVenta = dgvProductos[0, dgvProductos.CurrentCell.RowIndex].Value.ToString();
 			}
 			//-- recuperar el codigo del ejemplar (de la fila seleccionada en el grid) 
 			return new string[] { Codigo, dtpFecha.Value.ToShortDateString(), txtDNI.Text, txtNombreC.Text, txtCodCajero.Text };
@@ -45,7 +48,8 @@ namespace LibFormularios
 		//-- Listar los registros y mostrarlos en el datagrid	
 		public override void ListarRegistros()
 		{ //-- Mostrar los ejemplares relacionados con el libro seleccionado 
-			dgvProductos.DataSource = (aEntidad as CProductos).MostrarRegistros();
+			dgvProductos.DataSource = aProductos.MostrarRegistrosConCodigo();
+			
 		}
 		//-----------------------------------------------------------
 		//-- Iniciar los atributos clave y no clave en blanco
@@ -57,10 +61,12 @@ namespace LibFormularios
 		}
 		public override void InicializarAtributosNoClave()
 		{
+			txtCodProducto.Text = "";
 			txtNombreP.Text = "";
 			txtPrecio.Text = "";
 			txtProducto.Text = "";
-			txtCantidad.Text = "0";
+			txtCantidad.Text = "1";
+			txtPago.Text = "";
 		}
 		//----------------------------------------------------------
 		public void CalcularMonto()
@@ -153,6 +159,30 @@ namespace LibFormularios
 
 			this.dgvDetalleVentas.DataSource = miFiltro;
 		}
+		public void Registrar_datos(string Cantidad, ref DataSet dstprincipal, string tabla)
+		{
+			try
+			{
+				string Consulta = "Data Source=LAPTOP-GCAFGI1G; DataBase = DBSupermercado; integrated security = True";
+				SqlConnection cn = new SqlConnection(Consulta);
+				string query = "insert into DetalleVenta values(" + aNroVenta + "," + aNroProducto + "," + Cantidad + ")";
+				MessageBox.Show("SE GUARDO CORRECTAMENTE");
+				
+				SqlCommand cmd = new SqlCommand(query, cn);
+				cn.Open();
+				SqlDataAdapter da = new SqlDataAdapter(cmd);
+				cmd.ExecuteNonQuery();
+
+				da.Fill(dstprincipal, tabla);
+				da.Dispose();
+				cn.Close();
+
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
+		}
 		//----------------------------EVENTOS--------------------------------------
 		private void frmAntVentas_Load(object sender, EventArgs e)
 		{
@@ -168,33 +198,34 @@ namespace LibFormularios
 
 		}
 
-		private void txtProducto_KeyUp(object sender, KeyEventArgs e)
-		{
-			string Salida = "";
-			string[] Palabra_Busqueda = this.txtProducto.Text.Split(' ');
+		//private void txtProducto_KeyUp(object sender, KeyEventArgs e)
+		//{
+		//	string Salida = "";
+		//	string[] Palabra_Busqueda = this.txtProducto.Text.Split(' ');
 
-			foreach (string Palabra in Palabra_Busqueda)
-			{
-				if (Salida.Length == 0)
-				{
-					Salida = "(Nombre_Producto LIKE '%" + Palabra + "%' OR Precio LIKE '%" + Palabra +
-						"%' OR Cod_Proveedor LIKE '%" + Palabra + "%' OR Clasificacion LIKE '%" + Palabra + "%')";
-				}
-				else
-				{
-					Salida += "AND (Nombre_Producto like '%" + Palabra + "%' OR Precio LIKE '%" + Palabra + "%' OR " +
-						"Cod_Proveedor LIKE '%" + Palabra + "%' OR Clasificacion LIKE '%" + Palabra + "%')";
-				}
-			}
+		//	foreach (string Palabra in Palabra_Busqueda)
+		//	{
+		//		if (Salida.Length == 0)
+		//		{
+		//			Salida = "(Nombre_Producto LIKE '%" + Palabra + "%' OR Precio LIKE '%" + Palabra +
+		//				"%' OR Cod_Proveedor LIKE '%" + Palabra + "%' OR Clasificacion LIKE '%" + Palabra + "%')";
+		//		}
+		//		else
+		//		{
+		//			Salida += "AND (Nombre_Producto like '%" + Palabra + "%' OR Precio LIKE '%" + Palabra + "%' OR " +
+		//				"Cod_Proveedor LIKE '%" + Palabra + "%' OR Clasificacion LIKE '%" + Palabra + "%')";
+		//		}
+		//	}
 
-			this.miFiltro.RowFilter = Salida;
-		}
+		//	this.miFiltro.RowFilter = Salida;
+		//}
 		
 		private void dgvProductos_CellContentClick(object sender, DataGridViewCellEventArgs e)
 		{
 			try
 			{
 				DataGridViewRow D = dgvProductos.Rows[e.RowIndex];
+
 				txtNombreP.Text = D.Cells["Nombre_Producto"].Value.ToString();
 
 				txtPrecio.Text = D.Cells["Precio"].Value.ToString();
@@ -202,6 +233,7 @@ namespace LibFormularios
 				txtCodProducto.Text = D.Cells["Cod_Producto"].Value.ToString();
 
 				aNroProducto = D.Cells["NroProducto"].Value.ToString();
+
 				//CalcularMonto();
 
 			}
@@ -233,6 +265,8 @@ namespace LibFormularios
 			if (rdbConBoleta.Checked == false)
 			{
 				gpbCliente.Visible = false;
+				txtNombreC.Text = "SIN NOMBRE";
+				txtDNI.Text = "SIN DNI";
 			}
 		}
 
@@ -259,6 +293,19 @@ namespace LibFormularios
 		private void btnCalcularMonto_Click(object sender, EventArgs e)
 		{
 			CalcularMonto();
+		}
+
+		private void btnVerVentas_Click(object sender, EventArgs e)
+		{
+			frmReporVentas Rv = new frmReporVentas();
+			Rv.ShowDialog();
+		}
+
+		private void btnAgregar_Click(object sender, EventArgs e)
+		{
+			this.Registrar_datos(txtCantidad.Text, ref resultados, "DetalleVenta");
+
+			InicializarAtributos();
 		}
 	}
 }

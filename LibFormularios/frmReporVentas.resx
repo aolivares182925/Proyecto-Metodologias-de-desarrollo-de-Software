@@ -134,6 +134,16 @@
         4RK8FQRB8A9OccRH/OxwOQAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="btnCerrar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAOVJREFUWEft
+        kkEKwjAQRbvRawkuxW0WSZNtbyJ4FfFMipR6C0Gn5Y+0sWGsTaGVPPjQPz8z/EWzxCzJ8/w5hXBepm85
+        hnBeZvCCQCoQpQD5PelKuhhjdhg38HtfiKMVKHlOumHc0Jp3hDhagYrnpBLjr+A9WBl/QSm1Jn8mPaBT
+        URQrxCL1rVqwMv6CtfbIMxb9BwfE7/e+EI8vQN/32mutN865LfIK8fQFxpIKLL8A+5Dw7OMdxn9QYCzL
+        L8C+LUQdQm98LxI60BaiDqE3vhcZvCCQCvxcILZwXqZvOYZwPjEnsuwFx64pxqyFP0IAAAAASUVORK5C
+        YII=
+</value>
+  </data>
   <data name="btnInprimir.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAOVJREFUWEft

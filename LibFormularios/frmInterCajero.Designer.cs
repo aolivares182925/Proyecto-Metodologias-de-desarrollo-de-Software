@@ -38,12 +38,8 @@
 			this.panel5 = new System.Windows.Forms.Panel();
 			this.btnVolver = new System.Windows.Forms.Button();
 			this.pnlSubMenu = new System.Windows.Forms.Panel();
-			this.btnRpCompras = new System.Windows.Forms.Button();
-			this.panel8 = new System.Windows.Forms.Panel();
 			this.btnRpVentas = new System.Windows.Forms.Button();
 			this.panel7 = new System.Windows.Forms.Panel();
-			this.btnPagos = new System.Windows.Forms.Button();
-			this.panel3 = new System.Windows.Forms.Panel();
 			this.btnReportes = new System.Windows.Forms.Button();
 			this.panel6 = new System.Windows.Forms.Panel();
 			this.panel2 = new System.Windows.Forms.Panel();
@@ -133,8 +129,6 @@
 			this.pnlMenuVertical.Controls.Add(this.panel5);
 			this.pnlMenuVertical.Controls.Add(this.btnVolver);
 			this.pnlMenuVertical.Controls.Add(this.pnlSubMenu);
-			this.pnlMenuVertical.Controls.Add(this.btnPagos);
-			this.pnlMenuVertical.Controls.Add(this.panel3);
 			this.pnlMenuVertical.Controls.Add(this.btnReportes);
 			this.pnlMenuVertical.Controls.Add(this.panel6);
 			this.pnlMenuVertical.Controls.Add(this.panel2);
@@ -176,39 +170,13 @@
 			// 
 			// pnlSubMenu
 			// 
-			this.pnlSubMenu.Controls.Add(this.btnRpCompras);
-			this.pnlSubMenu.Controls.Add(this.panel8);
 			this.pnlSubMenu.Controls.Add(this.btnRpVentas);
 			this.pnlSubMenu.Controls.Add(this.panel7);
-			this.pnlSubMenu.Location = new System.Drawing.Point(40, 251);
+			this.pnlSubMenu.Location = new System.Drawing.Point(40, 213);
 			this.pnlSubMenu.Name = "pnlSubMenu";
-			this.pnlSubMenu.Size = new System.Drawing.Size(174, 83);
+			this.pnlSubMenu.Size = new System.Drawing.Size(174, 41);
 			this.pnlSubMenu.TabIndex = 20;
 			this.pnlSubMenu.Visible = false;
-			// 
-			// btnRpCompras
-			// 
-			this.btnRpCompras.FlatAppearance.BorderSize = 0;
-			this.btnRpCompras.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-			this.btnRpCompras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.btnRpCompras.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnRpCompras.ForeColor = System.Drawing.Color.White;
-			this.btnRpCompras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.btnRpCompras.Location = new System.Drawing.Point(11, 41);
-			this.btnRpCompras.Name = "btnRpCompras";
-			this.btnRpCompras.Size = new System.Drawing.Size(163, 35);
-			this.btnRpCompras.TabIndex = 21;
-			this.btnRpCompras.Text = "Reporte Compras";
-			this.btnRpCompras.UseVisualStyleBackColor = true;
-			this.btnRpCompras.Click += new System.EventHandler(this.btnRpCompras_Click);
-			// 
-			// panel8
-			// 
-			this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-			this.panel8.Location = new System.Drawing.Point(-5, 41);
-			this.panel8.Name = "panel8";
-			this.panel8.Size = new System.Drawing.Size(10, 32);
-			this.panel8.TabIndex = 20;
 			// 
 			// btnRpVentas
 			// 
@@ -234,30 +202,6 @@
 			this.panel7.Size = new System.Drawing.Size(10, 32);
 			this.panel7.TabIndex = 18;
 			// 
-			// btnPagos
-			// 
-			this.btnPagos.FlatAppearance.BorderSize = 0;
-			this.btnPagos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-			this.btnPagos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.btnPagos.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnPagos.ForeColor = System.Drawing.Color.White;
-			this.btnPagos.Image = ((System.Drawing.Image)(resources.GetObject("btnPagos.Image")));
-			this.btnPagos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.btnPagos.Location = new System.Drawing.Point(6, 172);
-			this.btnPagos.Name = "btnPagos";
-			this.btnPagos.Size = new System.Drawing.Size(211, 35);
-			this.btnPagos.TabIndex = 19;
-			this.btnPagos.Text = "Pagos";
-			this.btnPagos.UseVisualStyleBackColor = true;
-			// 
-			// panel3
-			// 
-			this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-			this.panel3.Location = new System.Drawing.Point(0, 172);
-			this.panel3.Name = "panel3";
-			this.panel3.Size = new System.Drawing.Size(5, 32);
-			this.panel3.TabIndex = 18;
-			// 
 			// btnReportes
 			// 
 			this.btnReportes.FlatAppearance.BorderSize = 0;
@@ -267,7 +211,7 @@
 			this.btnReportes.ForeColor = System.Drawing.Color.White;
 			this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
 			this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.btnReportes.Location = new System.Drawing.Point(6, 210);
+			this.btnReportes.Location = new System.Drawing.Point(6, 172);
 			this.btnReportes.Name = "btnReportes";
 			this.btnReportes.Size = new System.Drawing.Size(211, 35);
 			this.btnReportes.TabIndex = 17;
@@ -278,7 +222,7 @@
 			// panel6
 			// 
 			this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-			this.panel6.Location = new System.Drawing.Point(0, 210);
+			this.panel6.Location = new System.Drawing.Point(0, 172);
 			this.panel6.Name = "panel6";
 			this.panel6.Size = new System.Drawing.Size(5, 32);
 			this.panel6.TabIndex = 16;
@@ -364,13 +308,9 @@
 		private System.Windows.Forms.Panel panel2;
 		private System.Windows.Forms.PictureBox ptrLogo;
 		protected System.Windows.Forms.Button btnVentas;
-		protected System.Windows.Forms.Button btnPagos;
-		private System.Windows.Forms.Panel panel3;
 		protected System.Windows.Forms.Button btnReportes;
 		private System.Windows.Forms.Panel panel6;
 		private System.Windows.Forms.Panel pnlSubMenu;
-		protected System.Windows.Forms.Button btnRpCompras;
-		private System.Windows.Forms.Panel panel8;
 		protected System.Windows.Forms.Button btnRpVentas;
 		private System.Windows.Forms.Panel panel7;
 		private System.Windows.Forms.Panel panel5;

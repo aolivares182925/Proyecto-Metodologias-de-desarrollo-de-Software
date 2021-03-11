@@ -60,3 +60,24 @@ F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Su
 F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
 F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.dll
 F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.pdb
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\bin\Debug\LibFormularios.dll
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\bin\Debug\LibFormularios.pdb
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\bin\Debug\LibClases.dll
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\bin\Debug\LibClases.pdb
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.csprojAssemblyReference.cache
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmAdmUsuarios.resources
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmAlmacen.resources
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmAntVentas.resources
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmArqueo.resources
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmInterAdmin.resources
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmInterCajero.resources
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmLogin.resources
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmPadre.resources
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmPanelArqueo.resources
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.frmReporVentas.resources
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.Properties.Resources.resources
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.csproj.GenerateResource.cache
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.csproj.CopyComplete
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.dll
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\LibFormularios\obj\Debug\LibFormularios.pdb

@@ -55,13 +55,14 @@
 			this.rdbSinBoleta = new System.Windows.Forms.RadioButton();
 			this.dgvDetalleVentas = new System.Windows.Forms.DataGridView();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
+			this.btnCalcularMonto = new System.Windows.Forms.Button();
 			this.label14 = new System.Windows.Forms.Label();
 			this.txtPago = new System.Windows.Forms.TextBox();
 			this.label15 = new System.Windows.Forms.Label();
 			this.txtCodProducto = new System.Windows.Forms.TextBox();
 			this.label13 = new System.Windows.Forms.Label();
-			this.btnCalcularMonto = new System.Windows.Forms.Button();
-			this.btnAgregar = new System.Windows.Forms.Button();
+			this.panel6 = new System.Windows.Forms.Panel();
+			this.btnVerVentas = new System.Windows.Forms.Button();
 			this.pnlTitulos.SuspendLayout();
 			this.pnlBotones.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
@@ -79,8 +80,16 @@
 			// 
 			// pnlBotones
 			// 
+			this.pnlBotones.Controls.Add(this.panel6);
+			this.pnlBotones.Controls.Add(this.btnVerVentas);
 			this.pnlBotones.Location = new System.Drawing.Point(0, 480);
 			this.pnlBotones.Size = new System.Drawing.Size(780, 100);
+			this.pnlBotones.Controls.SetChildIndex(this.btnGuardar, 0);
+			this.pnlBotones.Controls.SetChildIndex(this.btnNuevo, 0);
+			this.pnlBotones.Controls.SetChildIndex(this.panel2, 0);
+			this.pnlBotones.Controls.SetChildIndex(this.panel3, 0);
+			this.pnlBotones.Controls.SetChildIndex(this.btnVerVentas, 0);
+			this.pnlBotones.Controls.SetChildIndex(this.panel6, 0);
 			// 
 			// btnNuevo
 			// 
@@ -254,7 +263,7 @@
 			this.txtProducto.Name = "txtProducto";
 			this.txtProducto.Size = new System.Drawing.Size(286, 20);
 			this.txtProducto.TabIndex = 11;
-			this.txtProducto.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtProducto_KeyUp);
+			//this.txtProducto.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtProducto_KeyUp);
 			// 
 			// label6
 			// 
@@ -306,6 +315,7 @@
 			// 
 			this.txtDNI.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtDNI.Location = new System.Drawing.Point(214, 21);
+			this.txtDNI.MaxLength = 8;
 			this.txtDNI.Name = "txtDNI";
 			this.txtDNI.Size = new System.Drawing.Size(124, 20);
 			this.txtDNI.TabIndex = 12;
@@ -359,7 +369,6 @@
 			// 
 			// groupBox2
 			// 
-			this.groupBox2.Controls.Add(this.btnAgregar);
 			this.groupBox2.Controls.Add(this.btnCalcularMonto);
 			this.groupBox2.Controls.Add(this.label14);
 			this.groupBox2.Controls.Add(this.txtPago);
@@ -382,6 +391,18 @@
 			this.groupBox2.TabStop = false;
 			this.groupBox2.Text = "Datos de la venta:";
 			this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+			// 
+			// btnCalcularMonto
+			// 
+			this.btnCalcularMonto.BackColor = System.Drawing.Color.Turquoise;
+			this.btnCalcularMonto.ForeColor = System.Drawing.Color.Black;
+			this.btnCalcularMonto.Location = new System.Drawing.Point(262, 90);
+			this.btnCalcularMonto.Name = "btnCalcularMonto";
+			this.btnCalcularMonto.Size = new System.Drawing.Size(88, 53);
+			this.btnCalcularMonto.TabIndex = 22;
+			this.btnCalcularMonto.Text = "Calcular Pago";
+			this.btnCalcularMonto.UseVisualStyleBackColor = false;
+			this.btnCalcularMonto.Click += new System.EventHandler(this.btnCalcularMonto_Click);
 			// 
 			// label14
 			// 
@@ -432,28 +453,31 @@
 			this.label13.TabIndex = 17;
 			this.label13.Text = "Cod. Producto:";
 			// 
-			// btnCalcularMonto
+			// panel6
 			// 
-			this.btnCalcularMonto.BackColor = System.Drawing.Color.Turquoise;
-			this.btnCalcularMonto.ForeColor = System.Drawing.Color.Black;
-			this.btnCalcularMonto.Location = new System.Drawing.Point(262, 90);
-			this.btnCalcularMonto.Name = "btnCalcularMonto";
-			this.btnCalcularMonto.Size = new System.Drawing.Size(88, 53);
-			this.btnCalcularMonto.TabIndex = 22;
-			this.btnCalcularMonto.Text = "Calcular Pago";
-			this.btnCalcularMonto.UseVisualStyleBackColor = false;
-			this.btnCalcularMonto.Click += new System.EventHandler(this.btnCalcularMonto_Click);
+			this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+			this.panel6.Location = new System.Drawing.Point(12, 35);
+			this.panel6.Name = "panel6";
+			this.panel6.Size = new System.Drawing.Size(5, 32);
+			this.panel6.TabIndex = 47;
 			// 
-			// btnAgregar
+			// btnVerVentas
 			// 
-			this.btnAgregar.BackColor = System.Drawing.Color.Turquoise;
-			this.btnAgregar.ForeColor = System.Drawing.Color.Black;
-			this.btnAgregar.Location = new System.Drawing.Point(260, 21);
-			this.btnAgregar.Name = "btnAgregar";
-			this.btnAgregar.Size = new System.Drawing.Size(90, 43);
-			this.btnAgregar.TabIndex = 23;
-			this.btnAgregar.Text = "Agregar";
-			this.btnAgregar.UseVisualStyleBackColor = false;
+			this.btnVerVentas.FlatAppearance.BorderSize = 0;
+			this.btnVerVentas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+			this.btnVerVentas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnVerVentas.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnVerVentas.ForeColor = System.Drawing.Color.White;
+			this.btnVerVentas.Image = ((System.Drawing.Image)(resources.GetObject("btnVerVentas.Image")));
+			this.btnVerVentas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.btnVerVentas.Location = new System.Drawing.Point(15, 35);
+			this.btnVerVentas.Name = "btnVerVentas";
+			this.btnVerVentas.Size = new System.Drawing.Size(152, 35);
+			this.btnVerVentas.TabIndex = 46;
+			this.btnVerVentas.Text = "Ver Ventas";
+			this.btnVerVentas.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.btnVerVentas.UseVisualStyleBackColor = true;
+			this.btnVerVentas.Click += new System.EventHandler(this.btnVerVentas_Click);
 			// 
 			// frmAntVentas
 			// 
@@ -533,7 +557,8 @@
 		private System.Windows.Forms.Label label14;
 		private System.Windows.Forms.TextBox txtPago;
 		private System.Windows.Forms.Label label15;
-		private System.Windows.Forms.Button btnAgregar;
 		private System.Windows.Forms.Button btnCalcularMonto;
+		private System.Windows.Forms.Panel panel6;
+		private System.Windows.Forms.Button btnVerVentas;
 	}
 }

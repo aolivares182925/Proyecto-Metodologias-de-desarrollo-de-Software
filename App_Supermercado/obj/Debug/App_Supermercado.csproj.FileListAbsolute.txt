@@ -40,3 +40,17 @@ F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Su
 F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csproj.CopyComplete
 F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.exe
 F:\Aler\TAREAS UNIVERSIDAD\2020-2\metodologia\Proyecto de caja\Final\Proyecto-Supermercado\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.pdb
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\App_Supermercado\bin\Debug\App_Supermercado.exe.config
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\App_Supermercado\bin\Debug\App_Supermercado.exe
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\App_Supermercado\bin\Debug\App_Supermercado.pdb
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\App_Supermercado\bin\Debug\LibFormularios.dll
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\App_Supermercado\bin\Debug\LibClases.dll
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\App_Supermercado\bin\Debug\LibFormularios.pdb
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\App_Supermercado\bin\Debug\LibClases.pdb
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csprojAssemblyReference.cache
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.Properties.Resources.resources
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csproj.GenerateResource.cache
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.csproj.CopyComplete
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.exe
+C:\Users\Acer\Documents\Cursos Hechos\App_Supermercado\App_Supermercado\obj\Debug\App_Supermercado.pdb

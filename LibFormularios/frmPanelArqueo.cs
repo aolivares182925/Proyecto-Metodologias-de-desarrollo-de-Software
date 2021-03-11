@@ -25,7 +25,7 @@ namespace LibFormularios
         {
             try
             {
-                string Consulta = "Data Source=DESKTOP-H4RJ2LR; DataBase = DBSupermercado; integrated security = True";
+                string Consulta = "Data Source=LAPTOP-GCAFGI1G; DataBase = DBSupermercado; integrated security = True";
                 SqlConnection cn = new SqlConnection(Consulta);
                 SqlCommand cmd = new SqlCommand(query, cn);
                 cn.Open();

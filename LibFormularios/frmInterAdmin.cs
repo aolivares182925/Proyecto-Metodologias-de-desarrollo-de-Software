@@ -39,26 +39,6 @@ namespace LibFormularios
 			fh.Show();
 		}
 		// --------------------EVENTOS---------------------------------
-		private void btnReportes_Click(object sender, EventArgs e)
-		{
-			pnlSubMenu.Visible = true;
-		}
-
-		private void btnRpVentas_Click(object sender, EventArgs e)
-		{
-			pnlSubMenu.Visible = false;
-		}
-
-		private void btnRpCompras_Click(object sender, EventArgs e)
-		{
-			pnlSubMenu.Visible = false;
-		}
-
-		private void btnRpPagos_Click(object sender, EventArgs e)
-		{
-			pnlSubMenu.Visible = false;
-		}
-
 		private void btnCerrar_Click(object sender, EventArgs e)
 		{
 			Application.Exit();

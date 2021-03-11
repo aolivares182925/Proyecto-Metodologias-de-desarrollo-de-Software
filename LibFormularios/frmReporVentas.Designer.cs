@@ -30,9 +30,12 @@
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmReporVentas));
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.label1 = new System.Windows.Forms.Label();
 			this.pnlBarraTitulo = new System.Windows.Forms.Panel();
 			this.pnlBotones = new System.Windows.Forms.Panel();
+			this.panel1 = new System.Windows.Forms.Panel();
+			this.btnCerrar = new System.Windows.Forms.Button();
 			this.panel4 = new System.Windows.Forms.Panel();
 			this.btnInprimir = new System.Windows.Forms.Button();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -69,6 +72,8 @@
 			// pnlBotones
 			// 
 			this.pnlBotones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+			this.pnlBotones.Controls.Add(this.panel1);
+			this.pnlBotones.Controls.Add(this.btnCerrar);
 			this.pnlBotones.Controls.Add(this.panel4);
 			this.pnlBotones.Controls.Add(this.btnInprimir);
 			this.pnlBotones.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -76,6 +81,31 @@
 			this.pnlBotones.Name = "pnlBotones";
 			this.pnlBotones.Size = new System.Drawing.Size(780, 100);
 			this.pnlBotones.TabIndex = 11;
+			// 
+			// panel1
+			// 
+			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+			this.panel1.Location = new System.Drawing.Point(15, 29);
+			this.panel1.Name = "panel1";
+			this.panel1.Size = new System.Drawing.Size(5, 32);
+			this.panel1.TabIndex = 45;
+			// 
+			// btnCerrar
+			// 
+			this.btnCerrar.FlatAppearance.BorderSize = 0;
+			this.btnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+			this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnCerrar.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnCerrar.ForeColor = System.Drawing.Color.White;
+			this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
+			this.btnCerrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.btnCerrar.Location = new System.Drawing.Point(18, 29);
+			this.btnCerrar.Name = "btnCerrar";
+			this.btnCerrar.Size = new System.Drawing.Size(152, 35);
+			this.btnCerrar.TabIndex = 44;
+			this.btnCerrar.Text = "Cerrar";
+			this.btnCerrar.UseVisualStyleBackColor = true;
+			this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
 			// 
 			// panel4
 			// 
@@ -126,6 +156,9 @@
 			this.dgvVentas.Location = new System.Drawing.Point(6, 62);
 			this.dgvVentas.Name = "dgvVentas";
 			this.dgvVentas.RowHeadersVisible = false;
+			dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+			this.dgvVentas.RowsDefaultCellStyle = dataGridViewCellStyle2;
 			this.dgvVentas.Size = new System.Drawing.Size(738, 289);
 			this.dgvVentas.TabIndex = 13;
 			// 
@@ -160,5 +193,7 @@
 		protected System.Windows.Forms.Button btnInprimir;
 		private System.Windows.Forms.GroupBox groupBox1;
 		private System.Windows.Forms.DataGridView dgvVentas;
+		private System.Windows.Forms.Panel panel1;
+		protected System.Windows.Forms.Button btnCerrar;
 	}
 }
